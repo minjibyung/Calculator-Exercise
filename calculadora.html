@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA VIRTUAL</title>
+    <link rel="stylesheet" href="calculadora.css">
+
+    <body>
+
+        <table width="20%" border="10" style="height:27em">
+            <tr>
+                <td colspan="20%" align="center">
+                    <input name="display" type="text" class="color_display" id="display" size="30" disabled></td>
+            </tr>
+            <tr>
+                <td width="10%"><input name="button0" type="button" class="numero" id="button0" value="C" onclick="borrar()"></td>
+                <td width="10%"><input name="button1" type="button" class="numero" id="button1" value="√" onclick="raizcuadrada()"></td>
+                <td width="10%"><input name="button2" type="button" class="numero" id="button2" value="%" onclick="porcentaje()"></td>
+                <td width="10%"><input name="button3" type="button" class="numero" id="button3" value="/" onclick="division()"></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input name="7" type="button" class="numero0" id="nro7" value="7" onclick="mostrar_numeros(7)"></td>
+                <td><input name="8" type="button" class="numero1" id="nro8" value="8" onclick="mostrar_numeros(8)"></td>
+                <td><input name="9" type="button" class="numero2" id="nro9" value="9" onclick="mostrar_numeros(9)"></td>
+                <td width="10%"><input name="button0" type="button" class="numero" id="button0" value="*" onclick="multiplicacion()"></td>
+
+            </tr>
+
+            <tr>
+                <td><input name="4" type="button" class="numero0" id="nro4" value="4" onclick="mostrar_numeros(4)"></td>
+                <td><input name="5" type="button" class="numero1" id="nro5" value="5" onclick="mostrar_numeros(5)"></td>
+                <td><input name="6" type="button" class="numero2" id="nro6" value="6" onclick="mostrar_numeros(6)"></td>
+                <td width="10%"><input name="button1" type="button" class="numero" id="button1" value="-" onclick="resta()"></td>
+
+            </tr>
+            <tr>
+                <td><input name="1" type="button" class="numero0" id="nro1" value="1" onclick="mostrar_numeros(1)"></td>
+                <td><input name="2" type="button" class="numero1" id="nro2" value="2" onclick="mostrar_numeros(2)"></td>
+                <td><input name="3" type="button" class="numero2" id="nro3" value="3" onclick="mostrar_numeros(3)"></td>
+                <td width="10% "><input name="button2" type="button" class="numero" id="button2" value="+" onclick="suma()"></td>
+
+            </tr>
+            <tr>
+                <td width="10%"><input name="button3" type="button" class="numero" id="button3" value="+/-" onclick="mostrar_numeros('+/-')"></td>
+                <td><input name="0" type="button" class="numero0" id="nro0" value="0" onclick="mostrar_numeros(0)"></td>
+                <td><input name="." type="button" class="numero1" id="signo" value="." onclick="mostrar_numeros('.')"></td>
+                <td width="10%"><input name="button3" type="button" class="numero" id="button3" value="=" onclick="igual()"></td>
+
+            </tr>
+        </table>
+        <script src="calculadora.js "></script>
+    </body>
+
+
+    </body>
+
+    <html>

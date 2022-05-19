@@ -1,0 +1,35 @@
+ * {
+     font-family: Arial, Helvetica, sans-serif;
+     color: brown;
+     text-align: center;
+ }
+ 
+ body {
+     background-color: bisque;
+ }
+ 
+ tr {
+     background-color: rosybrown;
+ }
+ 
+ #button0,
+ #button1,
+ #button2,
+ #button3,
+ #nro7,
+ #nro8,
+ #nro9,
+ #nro4,
+ #nro5,
+ #nro6,
+ #nro1,
+ #nro2,
+ #nro3,
+ #nro0,
+ #signo {
+     font-size: 1.7em;
+ }
+ 
+ #display {
+     font-size: 1.4em;
+ }
